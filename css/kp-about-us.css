@@ -1,0 +1,81 @@
+.about-us{
+	background-image: url(../images/about-us/bg-about-us.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us .screen{
+	background-color: rgba(0,0,0,0.2);
+	width: 100%;
+	padding-bottom: 50px;
+}
+.about-us .imagen{
+	overflow: hidden;
+	flex: 65%;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+}
+.about-us .imagen img{
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+}
+.about-us .description{
+	flex: 35%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb718;
+    color: #fff;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.about-us .description .content{
+	padding: 0px 50px;
+}
+.about-us .description .content .subtitle{
+	font-family: KG Inimitable;
+	text-align: left;
+	padding: 10px 0px;
+    color: #762100;
+    font-size: 27px;
+}
+@media only screen and (max-width: 1200px){
+	.about-us .description .content .subtitle{
+		font-size: 24px;
+	}
+	.about-us .description .content p{
+		font-size: 17px;
+	}
+	.about-us .description .content a{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.about-us .description .content{
+		padding: 50px;
+	}
+	.about-us .imagen{
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+	.about-us .description{
+		border-bottom-right-radius: 0px;
+    	border-top-right-radius: 0px;
+	}
+}
+@media only screen and (max-width: 576px){
+	.about-us .description .content{
+		padding-top: 0px;
+	}
+	.about-us{
+		background: none;
+		background-color: #ffb718;
+	}
+	.about-us .screen{
+		background: none;
+	}
+	.about-us .imagen{
+		display: none;
+	}
+}

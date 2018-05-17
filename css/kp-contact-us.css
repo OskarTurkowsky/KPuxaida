@@ -1,0 +1,100 @@
+.contact-us{
+	background-color: #e6e6e6;
+}
+.contact-us-layout{
+	padding: 30px 0px 80px 0px;
+}
+.contact-us h5{
+	font-family: Berlin-Sans;
+	font-size: 25px;
+	padding: 20px 0px;
+	color: #762100;
+	text-align: left;
+}
+/*  FORM-LAYOUT  */
+.contact-us .form-layout{
+	padding-right: 40px;
+}
+.contact-us .form-class{
+	padding-bottom: 6px;
+	font-family: NewsGoth;
+}
+.contact-us .form-class label{
+	font-weight: bold;
+	font-size: 15px;
+}
+.contact-us .form-class input{
+	width: 100%;
+	font-size: 17px;
+	font-weight: normal;
+	box-sizing: border-box;
+	outline: none;
+	margin: 6px 0px;
+	padding: 6px 10px 6px 16px;
+}
+.contact-us .form-class textarea{
+	width: 100%;
+	font-size: 17px;
+	font-weight: normal;
+	box-sizing: border-box;
+	outline: none;
+	margin: 6px 0px;
+	padding: 6px 10px 6px 16px;
+	height: 220px;
+}
+.contact-us .form-class-submit{
+	text-align: left;
+}
+.contact-us .form-class-submit input{
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Berlin-Sans;
+	padding: 5px 30px;
+	background-color: #b30000;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+/*  RESTAURANT-INFO-LAYOUT  */
+.contact-us .restaurant-info-layout{
+	padding-left: 40px;
+}
+.contact-us .datos{
+
+}
+.contact-us .datos ul{
+	list-style-type: none;
+	font-family: NewsGoth;
+}
+.contact-us .datos li{
+	display: flex;
+	margin: 16px 0px;
+	align-items: center;
+}
+.contact-us .datos li i{
+	width: 45px;
+}
+.contact-us .datos li .texto{
+
+}
+.contact-us .datos li .texto label{
+	display: block;
+	font-size: 15px;
+	font-family: KG Inimitable;
+	margin-bottom: -3px;
+}
+.contact-us .datos li .texto span{
+	font-size: 15px;
+}
+/*RESPONSIVE*/
+@media only screen and (max-width: 992px){
+	.contact-us .form-layout{
+		padding-bottom: 15px;
+		padding-right: 0px;
+	}
+	.contact-us .restaurant-info-layout{
+		padding-top: 15px;
+		padding-left: 0px;
+
+	}
+}

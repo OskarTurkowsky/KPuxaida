@@ -1,0 +1,172 @@
+@font-face {
+    font-family: KG Inimitable;
+    src: url('../fonts/KG Inimitable.ttf');
+}
+@font-face {
+    font-family: Berlin-Sans;
+    src: url('../fonts/Berlin-Sans.TTF');
+}
+@font-face {
+    font-family: NewsGoth;
+    src: url('../fonts/NewsGoth.ttf');
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5{
+	font-family: KG Inimitable;
+    font-size: 5vw;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 45px;    
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 28px;
+}
+h5{
+    font-size: 22px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    text-align: justify;
+    font-family: NewsGoth;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+}
+
+.title{
+    text-align: center;
+    color: #ea4100;
+    padding: 50px 0px 30px 0px;
+}
+.title h4{
+    font-family: NewsGoth;
+}
+.title img{
+    height: 100px;
+}
+@media only screen and (max-width: 766px){
+    .title h1{
+        font-size: 50px;
+    }
+    .title h2{
+        font-size: 35px;
+    }
+    .title h4{
+        font-size: 20px;
+    }
+    .title img{
+        height: 80px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .title h1{
+        font-size: 13vw;
+    }
+    .title h2{
+        font-size: 10vw;
+    }
+    .title h4{
+        font-size: 8vw;
+    }
+}
+h5{
+    font-family: Berlin-Sans;
+    font-size: 25px;
+    padding: 20px 0px;
+    color: #762100;
+    text-align: left;
+}
+.kp-btn-class{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Berlin-Sans;
+    padding: 10px 0px 4px 0px;
+    border-bottom: none;
+}
+.kp-btn-class:hover{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+
+/*ICONOS FONT AWESOME*/
+.fa-instagram-icon:before,
+.fa-twitter-icon:before,
+.fa-facebook-icon:before,
+.fa-phone-icon:before,
+.fa-adress-icon:before,
+.fa-horario-icon:before,
+.fa-mail-icon:before,
+.fa-nav-button-icon:before{
+    font-family: FontAwesome;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.fa-instagram-icon:before {
+    content: "\f16d";
+}
+.fa-twitter-icon:before {
+    content: "\f099";
+}
+.fa-facebook-icon:before {
+    content: "\f082";
+}
+.fa-phone-icon:before {
+    content: "\f095";
+    padding-right: 30px;
+}
+.fa-adress-icon:before {
+    content: "\f041";
+    padding-right: 30px;
+}
+.fa-horario-icon:before {
+    content: "\f017";
+    padding-right: 30px;
+}
+.fa-mail-icon:before {
+    content: "\f0e0";
+    padding-right: 30px;
+}
+.fa-nav-button-icon:before{
+    content: "\f0c9";
+    color: #4e4c4d;
+    padding: 0;
+    margin: 0;
+}
+/*FIN ICONOS FONT AWESOME*/
+
+/*ICONOS FONT AWESOME*/
+.top-header .fa-phone-icon:before,
+.top-header .fa-adress-icon:before{
+    color: #762100;
+}
+.contact-us .fa-phone-icon:before,
+.contact-us .fa-adress-icon:before,
+.contact-us .fa-horario-icon:before,
+.contact-us .fa-mail-icon:before{
+    font-size: 32px;
+    color: #b30000;
+}
+/*FIN ICONOS FONT AWESOME*/

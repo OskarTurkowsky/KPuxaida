@@ -1,0 +1,54 @@
+.make-reservation{
+}
+.make-reservation-layout{
+	padding: 30px 0px 80px 0px;
+}
+/*  FORM-LAYOUT  */
+.make-reservation .form-layout{
+	padding-right: 40px;
+}
+.make-reservation .form-class{
+	padding-bottom: 6px;
+	font-family: NewsGoth;
+}
+.make-reservation .form-class label{
+	font-weight: bold;
+	font-size: 15px;
+	display: none;
+}
+.make-reservation .form-class input{
+	width: 100%;
+	font-size: 17px;
+	font-weight: normal;
+	box-sizing: border-box;
+	outline: none;
+	margin: 6px 0px;
+	padding: 6px 10px 6px 16px;
+	border: none;
+	background-color: #e6e6e6;
+}
+.make-reservation .form-class textarea{
+	width: 100%;
+	font-size: 17px;
+	font-weight: normal;
+	box-sizing: border-box;
+	outline: none;
+	margin: 6px 0px;
+	padding: 6px 10px 6px 16px;
+	height: 220px;
+	border: none;
+	background-color: #e6e6e6;
+}
+.make-reservation .form-class-submit{
+	text-align: left;
+}
+.make-reservation .form-class-submit input{
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Berlin-Sans;
+	padding: 5px 30px;
+	background-color: #b30000;
+	color: #fff;
+	border: none;
+	outline: none;
+}
